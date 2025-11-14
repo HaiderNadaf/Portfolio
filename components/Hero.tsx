@@ -13,14 +13,14 @@ import { socialMedia } from "@/Data";
 const Hero = () => {
   const [copy, setcopy] = useState(false);
   const handleCopy = () => {
-    const text = "shahnoormujawar@gmail.com";
+    const text = "haidernadaf67@gmail.com";
     navigator.clipboard.writeText(text);
     setcopy(true);
   };
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/latest.pdf";
+    link.href = "/haider_resume.pdf";
     link.download = "latest.pdf";
     link.click();
   };
@@ -50,7 +50,7 @@ const Hero = () => {
             words="Building the Future, One Line of Code at a Time"
           />
           <p className=" font-semibold text-gray-300 text-sm md:text-xl lg:text-2xl mb-4 text-center md:tracking-wider">
-            Hi, I&apos;m Shahnoor Mujawar, a Full-Stack Developer based in
+            Hi, I&apos;m Haider Nadaf, a Full-Stack Developer based in
             Bangalore.
           </p>
           <div className="flex w-full items-start mt-10 mb-10 justify-between md:gap-3 gap-6">
