@@ -20,7 +20,7 @@ const Hero = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/haider_resume.pdf";
+    link.href = "/Haider_FullStack_Developer.pdf";
     link.download = "latest.pdf";
     link.click();
   };
